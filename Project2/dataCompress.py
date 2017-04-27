@@ -43,5 +43,10 @@ def buildAD(trie, k):
                     break;
     return adTrie
 
+def encoder(AD, w):
+    v,r = ""
+    for char in w:
+        
+
 
 print buildAD(buildFact('10010') ,5)
